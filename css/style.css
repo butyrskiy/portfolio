@@ -20,6 +20,12 @@ body {
     margin: 0;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
+    color: #070707;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
 }
 
 ul, li {
@@ -41,8 +47,13 @@ img {
     margin: 0 auto;
 }
 
+.header {
+    margin-bottom: 125px;
+}
+
 .nav {
     min-height: 88px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -62,4 +73,101 @@ img {
 
 .nav__item .active {
     color: #070707;
+}
+
+.header__info {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    font-weight: 700;
+    color: #070707
+}
+
+.header__title {
+    width: 124px;
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.header__text {
+    /* margin: 0 auto; */
+    width: 155px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.header__lang {
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.about-me {
+    margin-bottom: 125px;
+}
+
+.about-me__title {
+    margin-bottom: 18px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about-me__text {
+    max-width: 485px;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.text p {
+    margin-bottom: 25px;
+}
+
+.skills__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills__text {
+    margin-bottom: 80px;
+}
+
+/* .skills__list {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.skills__item {
+    max-width: 167px;
+    min-height: 207px;
+}
+
+.skills__link {
+    display: block;
+}
+.skills__img {
+    display: block;
+}
+.skills__name {
+}
+.skills__raiting {
 }
