@@ -41,7 +41,7 @@ img {
     margin: 0 auto;
 }
 
-.nav__list {
+.nav {
     min-height: 88px;
     display: flex;
     flex-wrap: wrap;
@@ -50,16 +50,16 @@ img {
     border-bottom: 1px solid #828282;
 }
 
-.nav__list_item {
+.nav__item {
     font-size: 18px;
     font-weight: 700;
     line-height: 22.28px;
 }
 
-.nav__list_item a {
+.nav__item a {
     color: #828282;
 }
 
-.nav__list_item .active {
+.nav__item .active {
     color: #070707;
 }
