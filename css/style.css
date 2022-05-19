@@ -36,6 +36,7 @@ ul, li {
 
 a {
     text-decoration: none;
+    color: #070707;
 }
 
 img {
@@ -209,4 +210,18 @@ img {
 
 .portfolio__subtitle--last {
     margin-bottom: 0;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+}
+
+.footer__subtitle {
+    max-width: 275px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
 }
