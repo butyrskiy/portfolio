@@ -143,6 +143,10 @@ img {
     transform: rotate(180deg);
 }
 
+.eng {
+    color: #070707;
+}
+
 .about-me {
     margin-bottom: 125px;
 }
