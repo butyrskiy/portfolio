@@ -39,6 +39,29 @@ a {
     color: #070707;
 }
 
+.nav__item a {
+	position: relative;
+	color: #070707; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+
+.nav__item a::after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #828282; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.nav__item a:hover::after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
 img {
     max-width: 100%;
 }
@@ -212,6 +235,10 @@ img {
     margin-bottom: 0;
 }
 
+.footer {
+    margin-bottom: 15px;
+}
+
 .footer__title {
     margin-bottom: 20px;
 }
@@ -224,4 +251,39 @@ img {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    padding: 13px 30px;
+    background-color: #070707;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-list {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 342px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list__item {
+    width: 40px;
+    height: 40px;
+}
+
+.social__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
 }
