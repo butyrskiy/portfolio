@@ -6,9 +6,13 @@
 
 @media (max-width: 376px) {
     
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .header {
         margin-top: 30px;
-        margin-left: 25px;
         margin-bottom: 75px;
     }
 
