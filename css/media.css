@@ -1,0 +1,68 @@
+@media (min-width: 376px) and (max-width: 20000px) {
+    .photo375 {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        margin-top: 65px;
+        margin-left: 25px;
+        margin-bottom: 75px;
+    }
+    
+    .header__nav {
+        display: none;
+    }
+
+    .header__info {
+        display: block;
+    }
+
+    .header__title {
+        margin-bottom: 25px;
+    }
+
+    .header__lang {
+        display: none;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .about-me {
+        padding: 15px;
+        margin-bottom: 75px;
+    }
+
+    .skills {
+        margin-bottom: 75px;
+    }
+
+    .skills__text {
+        margin-bottom: 35px;
+    }
+
+    .skills__list {
+        display: block;
+    }
+
+    .skills__img {
+        margin-bottom: 10px;
+    }
+
+    .skills__name {
+        margin-bottom: 10px;
+    }
+
+    .skills__item {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .portfolio__img {
+        padding: 15px;
+    }
+}
